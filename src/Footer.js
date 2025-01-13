@@ -1,0 +1,14 @@
+
+
+const Footer = ({length}) => {
+    
+  return (
+    <footer>
+        <p>
+            {length} List {length===1?"items":"items"}
+        </p>
+    </footer>
+  )
+}
+
+export default Footer
